@@ -28,7 +28,8 @@
  */
 
 // ANSWER
-
+let image = document.getElementById("unicorn");
+let heading = document.getElementById("mainheading");
 
 /**
  Problem #2: querySelector Practice
@@ -76,7 +77,8 @@
  */
 
 // ANSWER
-
+let doneToDos = document.querySelectorAll(".done");
+let checkbox = document.querySelector("input[type=checkbox]");
 
 /**
   Problem #3: Change text using JavaScript
@@ -105,3 +107,4 @@
  */
 
 // ANSWER
+document.querySelector("span").textContent = "Disgusting";
